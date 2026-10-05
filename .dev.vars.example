@@ -1,0 +1,8 @@
+# Copy to .dev.vars for local dev. In production set the tokens with `wrangler secret put`.
+# One token per account listed in ACCOUNTS (wrangler.jsonc). Classic PAT with `repo` scope.
+GITHUB_TOKEN_1=ghp_...
+# GITHUB_TOKEN_2=ghp_...
+# Optional: put a passphrase in front of the page. Leave unset locally to skip it.
+# APP_PASSWORD=choose-a-long-passphrase
+# Set to 1 to serve generated mock data instead of calling GitHub.
+# DEMO=1
